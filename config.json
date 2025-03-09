@@ -1,0 +1,23 @@
+{
+    "enableProxy": true,
+    "concurrency": 1,
+    "delayBetweenAccounts": {
+      "min": 3000,
+      "max": 7000
+    },
+    "delayAfterCompletion": 0,
+    "retryOptions": {
+      "retries": 3,
+      "minTimeout": 5000,
+      "maxTimeout": 15000
+    },
+    "apiEndpoint": "https://api.paws.community/v1/wallet/solana/og",
+    "signatureMessage": "PAWS requires you to sign this message to complete the verification process. This is a READ_ONLY interaction and will not affect any of your funds or trigger any transactions.",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+    "logging": {
+      "console": true,
+      "file": true,
+      "fileMaxSize": "20m",
+      "fileMaxFiles": 7
+    }
+  }

@@ -1,0 +1,34 @@
+{
+    "name": "paws-bot",
+    "version": "1.0.0",
+    "description": "Bot for Paws Community OG eligibility checking",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "keywords": [
+      "solana",
+      "paws",
+      "bot"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@solana/web3.js": "^1.87.6",
+      "axios": "^1.6.2",
+      "axios-retry": "^3.9.1",
+      "bs58": "^5.0.0",
+      "chalk": "^4.1.2",
+      "figlet": "^1.7.0",
+      "fs-extra": "^11.2.0",
+      "https-proxy-agent": "^7.0.2",
+      "moment": "^2.30.1",
+      "p-limit": "^3.1.0",
+      "triple-beam": "^1.4.1",
+      "tweetnacl": "^1.0.3",
+      "winston": "^3.11.0",
+      "winston-daily-rotate-file": "^4.7.1",
+      "winston-transport": "^4.6.0"
+    },
+    "type": "module"
+  }
